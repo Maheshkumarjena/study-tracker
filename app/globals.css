@@ -1,42 +1,42 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #f8f7f4;
-  --surface: #ffffff;
-  --surface-2: #f2f0ec;
-  --border: #e5e2db;
-  --border-strong: #ccc9c0;
-  --text: #1a1916;
-  --text-2: #6b6860;
-  --text-3: #9b9890;
+  --bg: #0b1220;
+  --surface: #0f1724;
+  --surface-2: #0b1a2b;
+  --border: #223142;
+  --border-strong: #2b3b50;
+  --text: #e6eef8;
+  --text-2: #9fb1c7;
+  --text-3: #7b8fa7;
 
   --genai: #7F77DD;
-  --genai-bg: #EEEDFE;
-  --genai-text: #3C3489;
+  --genai-bg: #2b264b;
+  --genai-text: #eae8ff;
 
   --dsa: #639922;
-  --dsa-bg: #EAF3DE;
-  --dsa-text: #27500A;
+  --dsa-bg: #123217;
+  --dsa-text: #d9f2c6;
 
   --core: #378ADD;
-  --core-bg: #E6F1FB;
-  --core-text: #0C447C;
+  --core-bg: #12314e;
+  --core-text: #dbeeff;
 
   --company: #BA7517;
-  --company-bg: #FAEEDA;
-  --company-text: #633806;
+  --company-bg: #3b2711;
+  --company-text: #f5d7a1;
 
   --jobs: #D85A30;
-  --jobs-bg: #FAECE7;
-  --jobs-text: #712B13;
+  --jobs-bg: #3a180f;
+  --jobs-text: #ffd5c0;
 
   --cloud: #1D9E75;
-  --cloud-bg: #E1F5EE;
-  --cloud-text: #085041;
+  --cloud-bg: #08332a;
+  --cloud-text: #c8f4e7;
 
   --break: #888780;
-  --break-bg: #F1EFE8;
-  --break-text: #444441;
+  --break-bg: #151512;
+  --break-text: #c7c6c3;
 }
 
 * { box-sizing: border-box; }
