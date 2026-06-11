@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f8f7f4;
+  --surface: #ffffff;
+  --surface-2: #f2f0ec;
+  --border: #e5e2db;
+  --border-strong: #ccc9c0;
+  --text: #1a1916;
+  --text-2: #6b6860;
+  --text-3: #9b9890;
+
+  --genai: #7F77DD;
+  --genai-bg: #EEEDFE;
+  --genai-text: #3C3489;
+
+  --dsa: #639922;
+  --dsa-bg: #EAF3DE;
+  --dsa-text: #27500A;
+
+  --core: #378ADD;
+  --core-bg: #E6F1FB;
+  --core-text: #0C447C;
+
+  --company: #BA7517;
+  --company-bg: #FAEEDA;
+  --company-text: #633806;
+
+  --jobs: #D85A30;
+  --jobs-bg: #FAECE7;
+  --jobs-text: #712B13;
+
+  --cloud: #1D9E75;
+  --cloud-bg: #E1F5EE;
+  --cloud-text: #085041;
+
+  --break: #888780;
+  --break-bg: #F1EFE8;
+  --break-text: #444441;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+}
+
+input[type="text"], textarea {
+  font-family: inherit;
+  font-size: 13px;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 10px;
+  width: 100%;
+  resize: none;
+  outline: none;
+  transition: border-color 0.15s;
+}
+input[type="text"]:focus, textarea:focus {
+  border-color: var(--border-strong);
+}
+
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: var(--text);
+  flex-shrink: 0;
+}
